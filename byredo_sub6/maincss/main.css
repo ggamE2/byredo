@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+
+/*-----------------------contents------------------------*/
+.contents{
+    position: relative; 
+    width: 100%;
+    margin: 49px auto 0;
+    overflow: hidden;
+}
+
+
+/*-------------cont1-------------*/
+.cont1{width: 100%; margin: 0 auto; position: relative; overflow: hidden;}
+.cont1>div{float:left; position: relative;}
+
+
+/*----------.cont1_c1-----------*/
+.cont1>div:first-child{position: relative; width:28%; overflow:hidden;}
+.cont1>div:first-child img{width: 100%; height: 100%;}
+.cont1>div .c1{width: 100%;}
+
+
+
+/*
+.contents .cont1 .c1_m{width: 100%;}    
+.contents .cont1 .c1_m img{width: 100%;}*/
+
+/*----------.cont1_c2-----------*/
+.cont1>div:nth-child(2){ position: relative; width: 72%; overflow:hidden;}
+.cont1>div:nth-child(2)::-webkit-scrollbar{display:none; }
+
+.cont1 .c2 h2{position: relative; width: 100%; height: 40px; font:normal 45px "Bebas Neue"; text-align: center; margin:50px auto 0px; animation: blink 3.5s linear infinite;}
+
+@keyframes blink {
+    0% {color: #000;}
+    60% {color: #a2d9bc;}
+    100% {color: #737a76;}
+}
+
+
+.cont1 .c2{width: 100%; }
+.cont1 .c2 .c2_m{width: 100%;}
+.cont1 .c2 .c2_m img{width: 100%;}
+.cont1 .c2 .sort{position:relative; height: 50px; margin:50px auto 10px; float:left; padding-left: 73%; width:100%; font:normal 17px "Share Tech Mono";}
+.cont1 .c2 .sort select{position:relative; width:14%; height: 35px; margin:0 0.1%; font:normal 14px "Share Tech Mono";}
+.cont1 .c2 .sort .so_1{position:relative; padding-top: 5px; }
+.cont1 .c2 .sort .so_2{position:relative;}
+.cont1 .c2 .sort span img{width:15px; padding-top:3px; }
+.cont1 .c2 .sort span img:hover {filter: invert(77%) sepia(13%) saturate(588%) hue-rotate(96deg) brightness(104%) contrast(90%);}
+
+
+.cont1>div:nth-child(2) ul{width: 100%; position: relative; margin:0 auto ;  }
+.cont1>div:nth-child(2) li{position: relative; width:32%; float: left; margin-right:2%;}
+.cont1>div:nth-child(2) li:nth-child(3n){margin-right:0%; margin-bottom: 6%; }
+.cont1>div:nth-child(2) li:last-child{padding-bottom:70px;}
+.cont1>div:nth-child(2) li img{width: 100%;}
+
+
+/*c2_new icon*/
+.cont1>div:nth-child(2) li .new{position: absolute; top:3%; left:3%;}
+.cont1>div:nth-child(2) li .new img{width: 100%;}
+.cont1 .c2 li .cap_img {opacity: 0; position: absolute; top: 0; left: 0;}
+.cont1 .c2 li:hover .cap_img {opacity: 1; transition: all 0.5s; filter: brightness(88%);}
+
+.cont1 .c2 li p{margin-left: 3px;}
+.cont1 .c2 li .txt1{font: normal 18px "Share Tech Mono"; margin-top: 2px;}
+.cont1 .c2 li .txt2{font: normal 13px "Share Tech Mono"; color:#d2d2d2; margin-top: 3px;}
+.cont1 .c2 li .txt3{font: normal 16px "Share Tech Mono"; margin-top: 8px;}
+
+
+
+
+/*-----moving------*/
+.moving {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: url(../images/moving.png) 1500px center / 1750px repeat-x;
+    animation: movebg 40s linear infinite;
+}
+
+@keyframes movebg{
+        0%{background-position: 0 center;}
+        100%{background-position: -3000px center;}/*속도*/
+    }    

@@ -1,0 +1,91 @@
+
+/* 모바일 */
+ @media screen and (max-width:639px){
+     
+ /*------cont1------*/    
+.contents .cont1{width: 96%;}
+     
+
+ /*cont1_c1*/   
+.contents .cont1 .c1{display: none;}
+    
+ /*cont1_c2*/    
+.contents .cont1 .c2{width: 100%; height:auto;}
+/*.contents .cont1 .c2_m{display: none;} */  
+.contents .cont1 .c2 h2{font-size: 40px; margin-top: 40px;} 
+.contents .cont1 .c2 .sort{padding-left: 56%;}     
+.contents .cont1 .c2 .sort select{width:24%; height: 32px;}
+     
+.contents .cont1 .c2 .sort span img{width: 12px;} 
+	 
+	 
+	 
+
+.contents .cont1>div:nth-child(2) li{position: relative; width:49%; float: left; margin-right:2%;}
+.contents .cont1>div:nth-child(2) li:nth-child(2n){margin-right: 0%; margin-bottom: 10%; }
+.contents .cont1>div:nth-child(2) li:last-child{padding-bottom:70px;}    
+.contents .cont1>div:nth-child(2) li .new img{width: 80%;}     
+.contents .cont1>div:nth-child(2) .txt1{overflow: hidden; font-size:17px;} 
+.contents .cont1>div:nth-child(2) .txt3{overflow: hidden; font-size:14px;} 
+     
+}
+     
+  
+
+
+
+/*  태블릿 PC : width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px){
+
+ /*------cont1------*/    
+.contents .cont1{width: 95%;}
+    
+ /*cont1_c1*/   
+.contents .cont1 .c1{display: none;}
+    
+ /*cont1_c2*/    
+.contents .cont1 .c2{width: 100%; height: auto;}
+
+.contents .cont1 .c2 .sort{padding-left:71%;}     
+.contents .cont1 .c2 .sort select{width:14%; height: 32px;}
+.contents .cont1 .c2 .sort span img{width:13px;}    
+         
+    
+.contents .cont1>div:nth-child(2) li{position: relative; width:32%; float: left; margin-right:2%;}
+.contents .cont1>div:nth-child(2) li:nth-child(3n){margin-right: 0%; margin-bottom: 6%; }
+.contents .cont1>div:nth-child(2) li:last-child{padding-bottom:70px;}   
+.contents .cont1>div:nth-child(2) li .new img{width: 90%;}        
+   
+    
+    
+}
+
+
+/* pc */
+
+@media all and (min-width:1024px){
+.contents .cont1 .c2 ul{width:95%; margin: 0 auto;}
+    
+/*------cont1------*/
+.contents .cont1{height: 1040px;}
+ /*cont1_c1*/    
+.contents .cont1 .c1{}  
+.contents .cont1 .c1_m{display: none;}      
+    
+ /*cont1_c2*/
+.contents .cont1 .c2{height:1040px;} 
+.contents .cont1 .c2 .c2_m{display: none;}  
+	
+	
+	
+/*----------.cont1_c2-----------*/
+.cont1>div:nth-child(2){ position: relative; width: 72%; overflow:auto; white-space: nowrap; -ms-overflow-style: none;}
+.cont1>div:nth-child(2)::-webkit-scrollbar{display:none; }
+ 	
+.contents .cont1>div:nth-child(2) li{position: relative; width:32%; float: left; margin-right:2%;}
+.contents .cont1>div:nth-child(2) li:nth-child(3n){margin-right:0%; margin-bottom: 6%; }
+.contents .cont1>div:nth-child(2) li:last-child{padding-bottom:70px;}    
+    
+}
+    
+    

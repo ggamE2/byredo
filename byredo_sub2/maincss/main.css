@@ -1,0 +1,263 @@
+
+/*-----------------contents-------------------*/
+.contents{
+    width: 100%;
+    margin: 60px auto 0;
+    overflow: hidden;
+}
+
+section{background: #fbfbfb;}
+
+
+.location{font: normal 15px "Share Tech Mono"; margin-top: 10px;}
+.location a:hover {opacity: 0.5;}
+
+/*---------cont1---------*/
+.cont1{position: relative; width: 100%; margin: 40px auto 0; overflow: hidden; background: #fff; }
+.cont1 h2{font:normal 90px "Bebas Neue";}
+.cont1 p{ margin-top: 10px; height: 20px; width:280px; background: #d2d2d2;}
+.cont1 h3{ margin-top: 50px; font:normal 24px "Malgun Gothic";}
+
+
+
+/*---------cont2---------*/
+.cont2{position: relative; width: 100%; margin: 120px auto 0; overflow: hidden; padding-top:40px;}
+.cont2 .one{width: 100%; overflow: hidden; }
+.cont2 .one li{position: relative; width: 48%; float: left; overflow: hidden; }
+.cont2 .one li:first-child{margin-right:4%; }
+.cont2 .one li img{width: 100%; }
+.cont2 .one li:hover img{transform: scale(1.2); transition:all 0.7s; opacity: 0.8;}
+.cont2 .one li span{font:normal 50px "Bebas Neue";}
+.cont2 .one li p{ margin-top: 30px; font:normal 20px "Malgun Gothic";}
+
+
+.cont2 .two{width: 100%; margin: 50px auto 30px;  overflow: hidden; }
+.cont2 .two li{position: relative; width: 22.5%; float: left;  margin-right:3.333333333333333%; }
+.cont2 .two li:last-child{margin-right:0%;}
+.cont2 .two li img{width: 100%; }
+.cont2 .two li :hover img{filter: brightness(85%); transition: all 0.5s;}
+
+
+.cont2 .two li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont2 .two li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont2 .two li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont2 .two li .price{text-align: center; font-size:15px;  margin-top: 2px;}
+
+
+
+
+/*---------cont3---------*/
+.cont3{position: relative; width: 100%; margin: 120px auto 0;  overflow: hidden; padding-top:40px; }
+.cont3>div{float: left; width: 48%; padding-bottom: 30px;}
+.cont3>div:first-child{margin-right:4%;}
+.cont3>div:first-child h2{font:normal 20px "Malgun Gothic";}
+.cont3>div:first-child h2 span{font:normal 50px "Bebas Neue";}
+
+.cont3>div:nth-child(2)>ul{width: 100%; margin: 0 auto;   }
+.cont3>div:nth-child(2)>ul li {width:45%; position: relative; float: left; }
+.cont3>div:nth-child(2)>ul li:first-child{ margin-right:5%;}
+.cont3>div:nth-child(2)>ul li img{width: 100%; }
+.cont3>div:nth-child(2)>ul li :hover img{filter: brightness(85%); transition: all 0.5s;}
+
+
+
+.cont3>div:nth-child(2)>ul li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont3>div:nth-child(2)>ul li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont3>div:nth-child(2)>ul li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont3>div:nth-child(2)>ul li .price{text-align: center; font-size:15px;  margin-top: 2px;}
+
+
+
+/*---------cont4---------*/
+.cont4{position: relative; width: 100%; margin: 120px auto 0; overflow: hidden;padding-top:40px;}
+
+.cont4 .one{width: 100%; overflow: hidden; }
+.cont4 .one li{position: relative; width: 48.2%; float: left; overflow: hidden;}
+.cont4 .one li:first-child{margin-right:3.6%; }
+.cont4 .one li img{width: 100%;}
+.cont4 .one li:hover img{transform: scale(1.2); transition:all 0.7s; opacity: 0.8;}
+.cont4 .one li span{font:normal 50px "Bebas Neue";}
+.cont4 .one li p{ margin-top: 30px; font:normal 20px "Malgun Gothic";}
+
+
+.cont4 .two{width: 100%;  overflow: hidden; }
+.cont4 .two li{position: relative;  margin: 40px auto 30px; width: 22.5%; float: left;  margin-right:3.333333333333333%; }
+.cont4 .two li:last-child{margin-right:0%; }
+.cont4 .two li img{width: 100%; }
+.cont4 .two li :hover img{filter: brightness(85%); transition: all 0.5s;}
+
+
+.cont4 .two li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont4 .two li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont4 .two li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont4 .two li .price{text-align: center; font-size:15px; margin-top: 2px;}
+
+
+
+
+/*---------cont5---------*/
+.cont5{position: relative; width: 100%; margin: 120px auto 0; overflow: hidden; padding-top:40px; }
+
+.cont5 .one{width: 100%; overflow: hidden; }
+.cont5 .one li{position: relative; width: 48.2%; float: left; overflow: hidden;}
+.cont5 .one li:first-child{margin-right:3.6%; }
+.cont5 .one li img{width: 100%; }
+.cont5 .one li:hover img{transform: scale(1.2); transition:all 0.7s; opacity: 0.8;}
+.cont5 .one li span{font:normal 50px "Bebas Neue";}
+.cont5 .one li p{ margin-top: 30px; font:normal 20px "Malgun Gothic";}
+
+
+.cont5 .two{width: 100%; margin: 30px auto;  overflow: hidden; }
+.cont5 .two li{position: relative; width: 22.5%; float: left;  margin-right:3.333333333333333%; padding-top: 30px;   }
+.cont5 .two li:nth-child(4n){margin-right:0%;}
+.cont5 .two li img{width: 100%; }
+.cont5 .two li :hover img{filter: brightness(85%); transition: all 0.5s;}
+
+
+.cont5 .two li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont5 .two li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont5 .two li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont5 .two li .price{text-align: center; font:normal 15px "Malgun Gothic"; margin-top: 2px;}
+
+
+
+
+
+/*---------cont6---------*/
+.cont6{position: relative; width: 100%; margin: 120px auto 0; overflow: hidden; padding-top:40px;}
+.cont6>div{width: 48.5%; float:left; overflow: hidden;}
+
+.cont6>div:first-child{margin-right: 3%;}
+.cont6>div:first-child:hover img{transform: scale(1.2); transition:all 0.7s; opacity: 0.8;}
+.cont6>div img{width: 100%;}
+
+.cont6>div:nth-child(2){overflow: hidden; }
+.cont6>div:nth-child(2) span{font:normal 50px "Bebas Neue";}
+.cont6>div:nth-child(2) .text{width: 100%; margin-top: 30px; overflow: hidden; font:normal 1.25rem "Malgun Gothic"; }
+
+.cont6>div:nth-child(2) ul{width: 100%; }
+.cont6>div:nth-child(2) li{position: relative; float: left; width:47%;}
+.cont6>div:nth-child(2) li:first-child{margin-right: 6%;}
+.cont6>div:nth-child(2) li img{width: 100%; padding-top:10%; }
+.cont6>div:nth-child(2) li:hover img{filter: brightness(85%); transition: all 0.5s;}
+
+.cont6>div:nth-child(2) ul li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont6>div:nth-child(2) ul li:hover .center{opacity: 1; transition: 0.7s;}
+.cont6>div:nth-child(2) ul li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont6>div:nth-child(2) ul li .price{text-align: center; font:normal 15px "Malgun Gothic"; margin-top: 2px;}
+
+
+
+.cont6 .two{position:relative; width: 100%; overflow: hidden; }
+.cont6 .two li{position: relative; width:22.5%; margin:40px auto 30px;  float: left;  margin-right:3.333333333333333%; }
+.cont6 .two li:last-child{margin-right:0%;}
+.cont6 .two li img{width: 100%; }
+/*.two 에서 margin-top적용 안되고 li에 적용 해야지 됨*/
+
+.cont6 .two li:hover img{filter: brightness(85%); transition: all 0.5s;}
+.cont6 .two li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont6 .two li:hover .center{opacity: 1; transition: 0.7s;}
+.cont6 .two li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont6 .two li .price{text-align: center; font:normal 15px "Malgun Gothic"; margin-top: 2px;}
+
+
+
+/*---------cont7---------*/
+.cont7{position: relative; width: 100%; margin: 100px auto 0; overflow: hidden; padding-top:40px;}
+.cont7>div{float: left; width: 48.4%; }
+.cont7>div:first-child{margin-right:3.2%;}
+.cont7>div:first-child h2{font:normal 20px "Malgun Gothic"; margin-top: 30px;}
+.cont7>div:first-child h2 span{font:normal 50px "Bebas Neue";}
+
+.cont7>div:nth-child(2)>ul{width: 100%; }
+.cont7>div:nth-child(2)>ul li {position: relative; width:47%; float: left;}
+.cont7>div:nth-child(2)>ul li:first-child{ margin-right:6%;}
+.cont7>div:nth-child(2)>ul li img{width: 100%; }
+.cont7>div:nth-child(2)>ul li:hover img{filter: brightness(85%); transition: all 0.5s;}
+
+
+.cont7>div:nth-child(2)>ul li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont7>div:nth-child(2)>ul li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont7>div:nth-child(2)>ul li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont7>div:nth-child(2)>ul li .price{text-align: center; font:normal 15px "Malgun Gothic";  margin-top: 2px;}
+
+
+
+.cont7 .two{width: 100%; position: relative; overflow: hidden; margin: 30px auto; }
+.cont7 .two li{position: relative; width: 22.5%; position: relative; float: left;  margin-right:3.333333333333333%; padding-top: 30px;  }
+.cont7 .two li:last-child{margin-right:0%;  }
+.cont7 .two li img{width: 100%; }
+.cont7 .two li:hover img{filter: brightness(85%); transition: all 0.5s;}
+
+.cont7 .two li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont7 .two li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont7 .two li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont7 .two li .price{text-align: center; font:normal 15px "Malgun Gothic";  margin-top: 2px;}
+
+
+
+
+/*---------cont8---------*/
+.cont8{position: relative; width: 100%; margin: 120px auto; overflow: hidden;padding-top:40px;}
+
+.cont8 .one{width: 100%; overflow: hidden; }
+.cont8 .one li{position: relative; width: 48.2%; float: left; overflow: hidden;}
+.cont8 .one li:first-child{margin-right:3.6%; }
+.cont8 .one li img{width: 100%;}
+.cont8 .one li:hover img{transform: scale(1.2); transition:all 0.7s; opacity: 0.8;}
+.cont8 .one li span{font:normal 50px "Bebas Neue";}
+.cont8 .one li p{ margin-top: 30px; font:normal 20px "Malgun Gothic";}
+
+
+.cont8 .two{width: 100%; overflow: hidden;}
+.cont8 .two li{position: relative; width: 22.5%; float: left; margin:40px auto 30px;  margin-right:3.333333333333333%; }
+.cont8 .two li:last-child{margin-right:0%; }
+.cont8 .two li img{width: 100%; }
+.cont8 .two li:hover img{filter: brightness(85%); transition: all 0.5s;}
+
+
+.cont8 .two li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 52%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont8 .two li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont8 .two li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont8 .two li .price{text-align: center; font:normal 15px "Malgun Gothic"; margin-top: 2px;}
+
+
+
+
+
+/*----------moving----------*/
+.moving {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+    width: 1600px;
+}
+
+.moving .spot_01 {
+    display: inline-block;
+    font: 2em;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    animation: scrollm 20s linear infinite;
+    color: #fff;
+}
+
+.moving .spot_01 span {
+    margin-left: 300px;
+}
+
+@keyframes scrollm {
+    0% {
+        text-indent: -20em;
+    }
+
+    100% {
+        text-indent: 20em;
+
+    }
+}

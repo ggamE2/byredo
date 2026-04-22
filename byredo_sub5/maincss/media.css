@@ -1,0 +1,47 @@
+
+/* 모바일 */
+ @media screen and (max-width:639px){
+.contents{width: 95%;}
+     
+/*cont1*/      
+.cont1>div{width: 100%;}      
+.cont1>div:first-child{margin-bottom: 30px;}     
+.cont1>div .text a{ position: relative; font:normal 16px "Malgun Gothic"; color:#fff; } 
+.cont1 .item li{float: left;  width: 48%; margin-right: 4%;}     
+     .cont1 .item li:nth-child(2n){margin-right: 0;}     
+}
+
+
+
+
+
+
+
+/*  태블릿 PC : width 1023px 미만 640px 이상 */
+ @media screen and (min-width:640px) and (max-width:1024px){
+.contents{width: 95%; }
+     
+/*cont1*/    
+.cont1>div{width: 49%; }     
+.cont1>div:first-child{margin-right: 2%;}     
+.cont1>div .text{width: 95%;  position: absolute; transform: translate(-50%,-50%); top:50%; left:50%; margin-top: 30px;  text-align: left;}     
+.cont1>div .text a{ position: relative; font:normal 14px "Malgun Gothic"; color:#fff; }     
+.cont1>div:nth-child(2) ul li:nth-child(2){margin-right: 0; margin-bottom: 20px;}
+
+}
+
+
+
+
+/* pc */
+
+@media all and (min-width:1024px){
+.foot_m{display: none;} 
+.contents{width: 90%; }
+.cont1>div{width: 49%; }  
+.cont1>div:first-child{;margin-right: 2%;}    
+.cont1>div:nth-child(2){width: 46%;}    
+    
+}
+    
+    

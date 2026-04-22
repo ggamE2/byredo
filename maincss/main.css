@@ -1,0 +1,1596 @@
+@charset "utf-8";
+
+/* visual --------------*/
+
+.visual{width:100%; margin-top: 50px;}
+.visual img{width:100%;}
+.visual_m{width: 100%;}
+
+
+
+/*------------visual slide---------------- */
+.jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background:  url('../images/visual_slide_img/b05-2.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div {background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+       
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('../img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+
+.jssor_2 .s01 h2{position: absolute; transform: translate(-50%,-50%);  top:10%; left:10%;font: bold 40px "Bebas Neue";}
+
+
+
+/*----------contents-------------*/
+.contents{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+
+/*--------cont1--------*/
+.cont1 {
+    position: relative;
+    width: 100%;
+    margin: 150px auto 0;
+    overflow: hidden;
+}
+
+.cont1 h2 {
+    width:100%;
+    font: normal 18rem "Bebas Neue";
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+    color: transparent;
+    white-space: nowrap;
+    text-align:left;
+    height: 500px;
+    line-height: 500px;
+    animation: scrolln 10s linear infinite;
+    color: #fff;
+
+}
+
+.cont1 .center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 410px;
+    height: 500px;
+    padding: 0 38%;
+}
+
+.cont1 .center img {
+    position: relative;
+    width: 100%;
+}
+
+
+.cont1 .center a {
+    position: absolute;
+    text-align: center;
+    font: normal 3.2rem "Bebas Neue";
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cont1 .center a:hover {
+    color: #000;
+    transition: all 1s;
+}
+
+
+
+@keyframes scrolln {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/*--------cont2--------*/
+.cont2 {
+    width: 100%;
+    height: 400px;
+    margin: 50px auto 20px;
+    overflow: hidden;
+    background: rgba(216, 236, 208, 0.5);
+}
+
+.slide {
+    width: 95%;
+    height: 380px;
+    padding-top: 45px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slide ul li img {
+    width: 200px;
+}
+
+.slide span,
+.slide span strong {
+    display: block;
+    text-align: center;
+}
+
+.slide span strong {
+    color: #000;
+    font: normal 14px "Bebas Neue";
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.slide span {
+    padding-top: 15px;
+    font: normal 11px "Share Tech Mono";
+}
+
+.slide .prev_btn1 {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+.slide .next_btn1 {
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+.slide ul li img:hover {
+    filter: brightness(80%);
+    transition: all 0.6s;
+}
+
+
+
+
+
+
+/*--------cont2_m--------*/
+.cont2_m {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: rgba(216, 236, 208, 0.5);
+}
+
+.slide_m {
+    width: 95%;
+    height: 380px;
+    padding-top: 60px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.slide_m ul li img {
+    width: 200px;
+}
+
+.slide_m span,
+.slide span strong {
+    display: block;
+    text-align: center;
+}
+
+.slide_m span strong {
+    color: #000;
+    font: normal 14px "Bebas Neue";
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+
+.slide_m span {
+    padding-top: 15px;
+    font: normal 11px "Share Tech Mono";
+}
+
+.slide_m .prev_btn2 {
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+.slide_m .next_btn2 {
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+
+.slide_m ul li img:hover {
+    filter: brightness(80%);
+    transition: all 0.6s;
+}
+
+
+
+
+/*--------cont3--------*/
+.cont3 {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cont3 h2 {
+    position: relative;
+    margin: 20px auto 0;
+    text-align: center;
+    font: bold 40px "Bebas Neue";
+}
+
+
+
+.slider {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    background: #fbfbfb;
+    padding-bottom: 20px;
+}
+
+/**/
+.slider li span strong {
+    color: gray;
+    font-size:12px;
+    letter-spacing: 2px;
+    line-height:1.8;
+}
+
+
+
+#carousel li {
+    margin-right: 5px;
+}
+
+#carousel li:last-child {
+    margin-right: 0px;
+}
+
+#carousel img {
+    display: block;
+    opacity: .5;
+    cursor: pointer;
+}
+
+#carousel img:hover {
+    opacity: 1;
+}
+
+#carousel .flex-active-slide img {
+    opacity: 1;
+    cursor: default;
+}
+
+
+/* Layout */
+#main {
+    position: relative;
+    margin: 50px auto 0;
+    z-index: 100;
+}
+
+.main1 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main1 a {
+    /*폰트적용안됨-기본따라서*/
+    color: gray;
+    text-decoration: none;
+}
+
+.main1 a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.main1>section {
+    position: relative;
+    float: left;
+    height: 500px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*확인
+.main1>section .slides li span{color: gray; font: normal 14px "Noto Sans KR";}*/
+
+/*--------cont4_m--------*/
+.cont4_m {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    position: relative;
+}
+
+.cont4_m img {
+    width: 100%;
+}
+
+
+
+/*--------cont4_menu--------*/
+.cont4_menu {
+    position: relative;
+    margin: 0 auto;
+    overflow-y: hidden;
+    /* -ms-overflow-style: none;*/
+    white-space: nowrap;
+}
+
+.cont4_menu ul {
+    width: 100%;
+    margin: 30px 0;
+    background: #d8ecd0;
+}
+
+.cont4_menu li {
+    position: relative;
+    float: left;
+    width: 14%;
+    margin-right: 7.5%;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.cont4_menu li:last-child {
+    margin-right: 0%;
+}
+
+.cont4_menu li img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.cont4_menu li .txt1 {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    transform: translate(0%, 0%);
+    font: normal 20px "Bebas Neue";
+    line-height: 30px;
+    top: 100%;
+    padding-top: 3%;
+}
+
+.cont4_menu li .cap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    background: rgba(216, 236, 208, 0.4);
+    opacity: 0;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.cont4_menu li:hover .cap {
+    transition: all 0.5s;
+    opacity: 1;
+    z-index: 10;
+}
+
+
+
+
+/*--------cont5--------*/
+.cont5 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+
+.cont5>div:first-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    background: #fbfbfb;
+}
+
+.cont5>div:first-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5>div:first-child li {
+    position: relative;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont5>div:first-child li .text {
+    position: relative;
+    transform: translate(0%, 0%);
+    font: normal 24px "Noto Sans KR";
+    padding: 5% 5% 20%;
+}
+
+.cont5>div:first-child li .text span {
+    font: normal 46px "Bebas Neue";
+    line-height: 2.4;
+}
+
+.cont5>div:first-child li img {
+    width: 100%;
+}
+
+.cont5>div:first-child li:hover img {
+    transform: scale(1.2);
+    transition: all 0.7s;
+    opacity: 0.8;
+}
+
+
+
+.cont5>div:first-child li h3 {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    font: bold 16px "Gothic A1";
+    /*margin:15% 3%;*/
+    margin: 0 auto;
+}
+
+.cont5>div:first-child li h3 a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.cont5>div:first-child li h3 a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.7s;
+    color: #fff;
+}
+
+
+
+.cont5>div:last-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont5>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5>div:last-child li {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont5>div:last-child li img {
+    width: 100%;
+}
+
+.cont5>div:last-child>div ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5>div:last-child>div li {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.cont5>div:last-child>div li img {
+    width: 100%;
+}
+
+.cont5>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5>div:last-child li:hover img {
+    transform: scale(1.05);
+    filter: brightness(85%);
+    transition: all 1s;
+}
+
+.cont5>div:last-child li .center {
+    position: absolute;
+    font: bold 14px "Nanum Gothic Coding";
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.cont5>div:last-child li:hover .center {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+/*--------cont5_m--------*/
+.cont5_m {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+
+.cont5_m>div:first-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+    background: #fbfbfb;
+}
+
+.cont5_m>div:first-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5_m>div:first-child li {
+    position: relative;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont5_m>div:first-child li .text {
+    position: relative;
+    transform: translate(0%, 0%);
+    font: normal 24px "Noto Sans KR";
+    padding: 5% 5% 20%;
+}
+
+.cont5_m>div:first-child li .text span {
+    font: normal 46px "Bebas Neue";
+    line-height: 2.4;
+}
+
+.cont5_m>div:first-child li img {
+    width: 100%;
+}
+
+.cont5_m>div:first-child li:hover img {
+    transform: scale(1.2);
+    transition: all 0.7s;
+    opacity: 0.8;
+}
+
+
+
+.cont5_m>div:first-child li h3 {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    font: bold 15px "Gothic A1";
+    /*margin:15% 3%;*/
+    margin: 0 auto;
+}
+
+.cont5_m>div:first-child li h3 a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.cont5_m>div:first-child li h3 a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.7s;
+    color: #fff;
+}
+
+
+
+.cont5_m>div:last-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont5_m>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5_m>div:last-child li {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont5_m>div:last-child li img {
+    width: 100%;
+}
+
+.cont5_m>div:last-child>div ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5_m>div:last-child>div li {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.cont5_m>div:last-child>div li img {
+    width: 100%;
+}
+
+.cont5_m>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont5_m>div:last-child li:hover img {
+    transform: scale(1.05);
+    filter: brightness(85%);
+    transition: all 1s;
+}
+
+.cont5_m>div:last-child li .center {
+    position: absolute;
+    font: bold 14px "Nanum Gothic Coding";
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.cont5_m>div:last-child li:hover .center {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+
+
+/*--------cont6--------*/
+.cont6 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+
+.cont6>div:first-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont6>div:first-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6>div:first-child li {
+    position: relative;
+    float: left;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+.cont6>div:first-child li .text {
+    position: relative;
+    transform: translate(0%, 0%);
+    font: normal 24px "Noto Sans KR";
+    padding: 5% 5% 20%;
+}
+
+.cont6>div:first-child li .text span {
+    font: normal 46px "Bebas Neue";
+    line-height: 2.4;
+}
+
+.cont6>div:first-child li img {
+    width: 100%;
+}
+
+.cont6>div:first-child li:hover img {
+    transform: scale(1.2);
+    transition: all 0.7s;
+    opacity: 0.8;
+}
+
+.cont6>div:first-child li h3 {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    font: bold 16px "Gothic A1";
+    /*margin:15% 3%;*/
+    margin: 0 auto;
+}
+
+.cont6>div:first-child li h3 a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.cont6>div:first-child li h3 a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.7s;
+    color: #fff;
+}
+
+
+
+.cont6>div:last-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont6>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6>div:last-child li {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont6>div:last-child li img {
+    width: 100%;
+}
+
+.cont6>div:last-child>div ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6>div:last-child>div li {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.cont6>div:last-child>div li img {
+    width: 100%;
+}
+
+.cont6>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6>div:last-child li:hover img {
+    transform: scale(1.05);
+    filter: brightness(85%);
+    transition: all 1s;
+}
+
+.cont6>div:last-child li .center {
+    position: absolute;
+    font: bold 14px "Nanum Gothic Coding";
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.cont6>div:last-child li:hover .center {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+
+
+/*------------cont6_m---------*/
+.cont6_m {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+
+.cont6_m>div:first-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont6_m>div:first-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6_m>div:first-child li {
+    position: relative;
+    float: left;
+    background: #fbfbfb;
+    overflow: hidden;
+}
+
+.cont6_m>div:first-child li .text {
+    position: relative;
+    transform: translate(0%, 0%);
+    font: normal 24px "Noto Sans KR";
+    padding: 5% 5% 20%;
+}
+
+.cont6_m>div:first-child li .text span {
+    font: normal 46px "Bebas Neue";
+    line-height: 2.4;
+}
+
+.cont6_m>div:first-child li img {
+    width: 100%;
+}
+
+.cont6_m>div:first-child li:hover img {
+    transform: scale(1.2);
+    transition: all 0.7s;
+    opacity: 0.8;
+}
+
+.cont6_m>div:first-child li h3 {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    font: bold 16px "Gothic A1";
+    /*margin:15% 3%;*/
+    margin: 0 auto;
+}
+
+.cont6_m>div:first-child li h3 a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.cont6_m>div:first-child li h3 a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.7s;
+    color: #fff;
+}
+
+
+
+.cont6_m>div:last-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont6_m>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6_m>div:last-child li {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont6_m>div:last-child li img {
+    width: 100%;
+}
+
+.cont6_m>div:last-child>div ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6_m>div:last-child>div li {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.cont6_m>div:last-child>div li img {
+    width: 100%;
+}
+
+.cont6_m>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont6_m>div:last-child li:hover img {
+    transform: scale(1.05);
+    filter: brightness(85%);
+    transition: all 1s;
+}
+
+.cont6_m>div:last-child li .center {
+    position: absolute;
+    font: bold 14px "Nanum Gothic Coding";
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.cont6_m>div:last-child li:hover .center {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+
+
+
+
+/*--------cont7--------*/
+.cont7 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+
+.cont7>div:first-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont7>div:first-child ul {
+    position: relative;
+    width: 100%;
+    background: #fbfbfb;
+}
+
+.cont7>div:first-child li {
+    position: relative;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont7>div:first-child li .text {
+    position: relative;
+    transform: translate(0%, 0%);
+    font: normal 24px "Noto Sans KR";
+    padding: 5% 5% 20%;
+}
+
+.cont7>div:first-child li .text span {
+    font: normal 46px "Bebas Neue";
+    line-height: 2.4;
+}
+
+.cont7>div:first-child li img {
+    width: 100%;
+}
+
+.cont7>div:first-child li:hover img {
+    transform: scale(1.2);
+    transition: all 0.7s;
+    opacity: 0.8;
+}
+
+.cont7>div:first-child li h3 {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    font: bold 16px "Gothic A1";
+    /*margin:15% 3%;*/
+    margin: 0 auto;
+}
+
+.cont7>div:first-child li h3 a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.cont7>div:first-child li h3 a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.7s;
+    color: #fff;
+}
+
+
+
+.cont7>div:last-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont7>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont7>div:last-child li {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont7>div:last-child li img {
+    width: 100%;
+}
+
+.cont7>div:last-child>div ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont7>div:last-child>div li {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.cont7>div:last-child>div li img {
+    width: 100%;
+}
+
+.cont7>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont7>div:last-child li:hover img {
+    transform: scale(1.05);
+    filter: brightness(85%);
+    transition: all 1s;
+}
+
+.cont7>div:last-child li .center {
+    position: absolute;
+    font: bold 14px "Nanum Gothic Coding";
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.cont7>div:last-child li:hover .center {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+/*--------cont7_m--------*/
+.cont7_m {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 50px auto 0;
+}
+
+.cont7_m>div:first-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont7_m>div:first-child ul {
+    position: relative;
+    width: 100%;
+    background: #fbfbfb;
+}
+
+.cont7_m>div:first-child li {
+    position: relative;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont7_m>div:first-child li .text {
+    position: relative;
+    transform: translate(0%, 0%);
+    font: normal 24px "Noto Sans KR";
+    padding: 5% 5% 20%;
+}
+
+.cont7_m>div:first-child li .text span {
+    font: normal 46px "Bebas Neue";
+    line-height: 2.4;
+}
+
+.cont7_m>div:first-child li img {
+    width: 100%;
+}
+
+.cont7_m>div:first-child li:hover img {
+    transform: scale(1.2);
+    transition: all 0.7s;
+    opacity: 0.8;
+}
+
+.cont7_m>div:first-child li h3 {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    font: bold 15px "Gothic A1";
+    /*margin:15% 3%;*/
+    margin: 0 auto;
+}
+
+.cont7_m>div:first-child li h3 a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+.cont7_m>div:first-child li h3 a:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transition: all 0.7s;
+    color: #fff;
+}
+
+
+
+.cont7_m>div:last-child {
+    position: relative;
+    width: 100%;
+    float: left;
+    margin: 0 auto;
+}
+
+.cont7_m>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont7_m>div:last-child li {
+    position: relative;
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+
+.cont7_m>div:last-child li img {
+    width: 100%;
+}
+
+.cont7_m>div:last-child>div ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont7_m>div:last-child>div li {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.cont7_m>div:last-child>div li img {
+    width: 100%;
+}
+
+.cont7_m>div:last-child ul {
+    position: relative;
+    width: 100%;
+}
+
+.cont7_m>div:last-child li:hover img {
+    transform: scale(1.05);
+    filter: brightness(85%);
+    transition: all 1s;
+}
+
+.cont7_m>div:last-child li .center {
+    position: absolute;
+    font: bold 14px "Nanum Gothic Coding";
+    transform: translate(-50%, -50%);
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+}
+
+.cont7_m>div:last-child li:hover .center {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+
+
+
+
+/*--------cont8--------*/
+.cont8 {
+    position: relative;
+    background: #fff;
+    margin: 200px auto;
+    overflow: hidden;
+}
+
+.cont8 .product {
+    position: relative;
+    width: 24%;
+    margin: 50px auto 0;
+}
+
+.cont8 .product img {
+    width: 100%;
+}
+
+.cont8 .video {
+    position: relative;
+    width: 1008px;
+    height: 567px;
+    margin: 0 auto;
+    padding: 40px 0;
+    z-index: 3;
+}
+
+.cont8 .video iframe {
+    width: 100%;
+}
+
+/*
+.sub-title {
+    font-size: 20px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin: 0;
+    padding: 0;
+  }*/
+
+
+.cont8 .text1 {
+    position: absolute;
+    transform: translate(0%, 0%);
+    left:-12%;
+    top: -30%;
+    z-index: -1;
+    transform: rotate(90deg);
+    transform-origin: left top;    /*writing-mode: vertical-rl; text-orientation:sideways-right;*/
+    font: normal 205px "Bebas Neue";
+    text-stroke: 2px rgba(0, 0, 0, 0.7);
+    -webkit-text-stroke: 2px rgba(0, 0, 0, 0.7);
+    letter-spacing: 30px;
+    color: #fff;
+    text-shadow: 15px 4px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.cont8 .text2 {
+    position: absolute;
+    transform: translate(0%, 0%);
+    bottom:-42%;
+    right: -10%;
+    z-index: -1;
+    transform: rotate(90deg);
+    transform-origin: right bottom;
+    font: normal 205px "Bebas Neue";
+    text-stroke: 2px #000;
+    -webkit-text-stroke: 2px #000;
+    letter-spacing: 30px;
+    color: #fff;
+    text-shadow: 15px 4px 0px rgba(0, 0, 0, 0.7);
+}
+
+.cont8 .name {
+    position: relative;
+    width: 50%;
+    margin: 45px auto;
+}
+
+.cont8 .name img {
+    width: 100%;
+}
+
+.cont8 h2 {
+    font: bold 30px "Gothic A1";
+    text-align: center;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+
+/* .cont8_ btn */
+.cont8 .btn {
+    position: relative;
+    width: 17%;
+    height: 60px;
+    text-align: center;
+    /*font: bold 30px "Gothic A1";*/
+    margin: 0 auto;
+    z-index: 1;
+    transition: all 0.7s;
+}
+
+.cont8 .btn a {
+    width: 100%;
+    z-index: 100;
+    height: 60px;
+    font: bold 30px "Gothic A1";
+    line-height: 60px;
+    display: block;
+    box-sizing: border-box;
+    border-bottom: 3px solid #000;
+    transition: all 0.7s;
+}
+
+
+.cont8 .btn:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background:
+        /*rgba(0,0,0,0.9);*/
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+    transition: all 0.5s ease;
+}
+
+.cont8 .btn a:hover {
+    color: #fff;
+}
+
+.cont8 .btn:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+
+/*--------cont9--------*/
+.cont9 {
+    width: 100%;
+    position: relative;
+    height: 500px;
+    margin: 150px auto 0;
+    overflow: hidden;
+}
+
+/*높이가 낮으면 움직이지도 않네*/
+.cont9 .cont9_in {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 1000px;
+    background: url(../images/c9.png) no-repeat center top fixed;
+    background-size: cover;
+}
+
+.cont9 .text1 {
+    position: absolute;
+    color: #fff;
+    opacity: 0;
+    text-align: center;
+    font: normal 35px "Share Tech Mono";
+    transform: translate(-50%, -50%);
+    top: 24%;
+    left: 50%;
+}
+
+.cont9 .text1 span {
+    font-size: 40px;
+}
+
+.cont9 a:hover .text1 {
+    opacity: 1;
+    transition: all 0.7s;
+}
+
+
+
+
+/*--------cont9--------*/
+.cont9_m {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont9_m img {
+    width: 100%;
+}
+
+.cont9_m .text1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    opacity: 0;
+    text-align: center;
+}
+
+.cont9_m .text1 span {}
+
+.cont9_m a:hover .text1 {
+    opacity: 1;
+    transition: all 0.7s;
+}
+
+
+
+
+
+/*--------cont10--------*/
+.cont10 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont10 ul {}
+
+.cont10 li {
+    float: left;
+    position: relative;
+}
+
+.cont10 li img {
+    width: 100%;
+}
+
+.cont10 li .icon {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+.cont10 li .icon img {
+    width: 20px;
+    text-align: center;
+}
+
+.cont10 li:hover {
+    filter: brightness(85%);
+    transition: all 0.5s;
+}
+
+.cont10 li:hover .icon {
+    opacity: 0.7;
+}
+
+
+/*--------moving--------*/
+.moving {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background: url(../images/moving.png) 1500px center / 1750px repeat-x;
+    animation: movebg 40s linear infinite;
+}
+
+@keyframes movebg {
+    0% {
+        background-position: 0 center;
+    }
+
+    100% {
+        background-position: -3000px center;
+    }
+
+    /*속도*/
+}

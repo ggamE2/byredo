@@ -1,0 +1,218 @@
+
+/* 모바일 */
+ @media screen and (max-width:639px){
+.cont2, .cont5{display: none;}	 	 
+ 
+/*cont1*/
+.cont1{width: 95%;}	 
+.cont1 .text a span{font-size: 80px; color:#000;}
+.cont1 .text a{position:relative;margin: 0 auto; color:#000; font:normal 18px "Malgun Gothic"; line-height:1.2;}	 
+.cont1 .text{width: 100%; }	 
+	 
+/*cont2*/
+.cont2_m{position:relative; width:85%; margin:150px auto; overflow: hidden;}
+.cont2_m ul{position:relative;  width:100%; z-index:1000; margin: 0 auto;}
+.cont2_m li{position:relative; width:100%; margin-bottom:16%;}
+.cont2_m li img{width: 100%;}
+.cont2_m li .txt{font:normal 45px "Bebas Neue"; letter-spacing: 2px; text-align: center;line-height:0.8; padding-top:7%; }
+
+/*cont3*/
+.cont3{margin:0px auto;}	 
+.cont3 h2{font-size: 60px; text-align: center; letter-spacing: 12px; }	 
+	 
+	 
+/*cont4*/
+.cont4{margin:150px auto; }	 
+.cont4 li{width:100%; margin-right: 0%; margin-bottom:70px;}	 
+.cont4 li:last-child{font-size:22px; line-height: 1.2; padding-top:0%; }
+.cont4 li:last-child h2{font-size:55px; line-height: 0.3;}	
+.cont4 li:last-child h2 span{top:-40px;}	 
+/*cont5*/
+
+
+/*cont5_m*/	 
+	 
+/*cont6*/
+	 
+.cont6 {margin:50px auto 0;}	 
+.cont6 .circle{top:-30%; transform: translate(50%,0%); width:46%; margin: 0 auto; }	 
+@keyframes move_c{
+	0%{top:0%; transform:rotate(90deg);}
+	100%{top:28%; transform:rotate(450deg);}
+}	 
+.cont6 ul:first-child{width:100%; padding-top:70%;}
+.cont6 ul:nth-child(2){width:100%;}	 
+	 
+/*cont7*/
+.cont7{margin:200px auto 0; }  
+.cont7 img{width:110%;}	 
+.cont7 .circle {
+	position: absolute;
+	transform: translate(0%,-50%);
+	left:45%;
+	top:10%;
+	/*left:55%;*/
+	width: 35%;
+	height: 100%;
+	border: 7px solid #000;
+	border-radius:50%;
+	background: transparent;
+	animation: move_top 3s infinite;
+	animation-timing-function :cubic-bezier(0,0,0,0);
+}
+
+@keyframes move_top {
+    0% {left:45%;
+        top:10%;
+    }
+
+    33% {left:55%;
+        top:30%;
+    }
+
+    66% {left:60%;
+        top:20%;
+    }
+	
+	 100% {left:45%;
+        top:10%;
+    }
+}
+
+	
+	 
+
+	 
+}
+
+
+
+/*  태블릿 PC : width 1023px 미만 640px 이상 */
+ @media screen and (min-width:640px) and (max-width:1024px){
+.cont2_m{display: none;}		 
+
+/*#contents{max-height:4755px;}	*/ 
+ 
+
+/*cont1*/
+.cont1 .text a span{font-size: 100px;}
+.cont1 .text{width: 95%; position: absolute; transform: translate(-50%, -50%); top: 0%;/*높이 상관x*/
+left: 50%; font-size:22px;}
+	 
+/*cont2*/
+.cont2{position:relative; transform:translate(0%,0%); top:-100px; width:90%; margin:0 auto; overflow: hidden;}
+.cont2 ul{width: 95%;}
+.cont2 li .txt{font-size: 40px;}
+.cont2 li span .name{font-size: 80px;}
+	 
+/*cont3*/
+.cont3{margin:90px auto 0;}	 
+.cont3 h2{font-size: 70px; letter-spacing: 10px;}
+	 
+/*cont4*/
+.cont4{margin:200px auto 0;}
+.cont4 ul{width: 96%;}	 
+/*.cont4 li{position:relative; width:49%; float: left; margin-right:2%;*/
+.cont4 li:first-child{width:47%; margin-right: 2%;}	 
+	 
+.cont4 li:last-child{width:51%;padding-top:2%; font-size:20px;}
+.cont4 li:last-child h2{font-size:55px; line-height: 0.5;}	 
+.cont4 li:last-child h2 span{position: absolute; top:-10px; }
+.cont4 li:last-child h2 span img{width:35px;}
+	 
+/*cont5*/
+.cont5 ul li{width:46%; margin-right: 8%;}
+.cont5 .txt{width:102%; font: normal 28px "Malgun Gothic"; letter-spacing:-1px; text-align: left; padding-top:10%;}
+.cont5 .txt span{font: normal 22px "Malgun Gothic"; }
+
+	 
+/*cont5_m*/	 
+.cont5_m{display: none;}	 
+	 
+/*cont6*/
+.cont6 ul{width:65%; }	 
+.cont6 ul li:first-child{width: 40%;}	
+.cont6 .circle{width: 260px;}	 
+	 
+@keyframes move_c{
+	0%{left:0%; transform:rotate(0deg);}
+	100%{left:18%; transform:rotate(360deg);}
+}
+	 
+/*cont7*/	 
+.cont7{position:relative; width:100%; margin:300px auto 0;}
+.cont7 .circle {
+	position: absolute;
+	transform: translate(0%,-50%);
+	left:50%;
+	top:10%;
+	/*left:55%;*/
+	width: 35%;
+	height: 100%;
+	border: 7px solid #000;
+	border-radius:50%;
+	background: transparent;
+	animation: move_top 4s infinite;
+	animation-timing-function :cubic-bezier(0,0,0,0);
+}
+
+@keyframes move_top {
+    0% {left:55%;
+        top:10%;
+    }
+
+    33% {left:60%;
+        top:30%;
+    }
+
+    66% {left:65%;
+        top:20%;
+    }
+	
+	 100% {left:55%;
+        top:10%;
+    }
+}
+
+	 
+	 
+	 
+}
+
+
+/* pc */
+
+@media all and (min-width:1024px){
+.cont2_m{display: none;}
+/*cont1*/
+/*#contents{max-height:6860px;}*/
+.cont1 .text a span{font-size: 140px;}
+.cont1 .text{position: absolute;
+	transform: translate(-50%, -50%);
+	top: 0%;/*여기 높이는 아무 영향을 안준다*/
+	left: 50%;font-size:30px;}
+/*cont2*/
+/*.cont2 {transform:translate(0%,50%); top:-7%;}	
+.cont2 li .txt{font:normal 50px "Bebas Neue";}
+.cont2 li:nth-child(2) .txt{padding-top:10%;}	*/
+
+
+.cont2{position:relative; transform:translate(0%,0%); top:-250px; width:90%; margin:0 auto; overflow: hidden; z-index: 10000;}
+.cont2 ul{position:relative; width:90%; display: block;  z-index: 1000; margin: 0 auto; }
+.cont2 li{position:relative; width: 30%; margin-right: 5%; float: left; z-index: 5;}
+.cont2 li:last-child{margin-right: 0;}
+.cont2 li img{width: 100%;}
+.cont2 li .txt{font:normal 50px "Bebas Neue"; text-align: center;  line-height:0.8; padding-top:5%;}
+.cont2 li:nth-child(2) .txt{padding-top:10%;}
+/*cont3*/
+.cont3{margin:100px auto 0;}	
+/*cont4*/	
+/*cont5*/
+.cont5_m{display: none;}		
+/*cont6*/
+/*cont7*/
+	
+	
+	
+	
+}

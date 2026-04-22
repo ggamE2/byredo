@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+
+
+/*-----------------contents-------------------*/
+.contents{
+    width: 100%;
+    margin: 100px auto 0;
+    overflow: hidden;
+}
+
+section{background: #fbfbfb;}
+
+/*--location--*/
+.location{font: normal 15px "Share Tech Mono"; margin-top: 10px;}
+.location a:hover {opacity: 0.5;}
+
+
+
+
+/*---------cont1---------*/
+.cont1{position: relative; width: 100%; margin: 50px auto 100px; overflow: hidden; padding:40px 0; }
+.cont1>div{width: 48%; position: relative; float: left; overflow: hidden; }
+.cont1>div:first-child{margin-right: 4%;}
+.cont1>div:first-child img{width: 100%; }
+.cont1>div:first-child:hover img{transform: scale(1.2); transition:all 0.7s; opacity: 0.8;}
+.cont1>div .text{width: 95%;  position: absolute; transform: translate(-50%,-50%); top:60%; left:50%; margin-top: 30px;  text-align: left;}
+.cont1>div .text a{ position: relative; font:normal 20px "Malgun Gothic"; color:#fff; }
+.cont1>div .text a span{position:relative; transform: translate(-50%,-50%); top:0%; left: 0%;  font:normal 50px "Bebas Neue";}
+
+
+.cont1>div:nth-child(2){}
+.cont1>div:nth-child(2) ul{width: 100%; }
+.cont1>div:nth-child(2) ul li{position: relative; float: left; width: 48%; margin-right: 4%;}
+.cont1>div:nth-child(2) ul li:nth-child(2){margin-right: 0; margin-bottom: 40px;}
+.cont1>div:nth-child(2) ul li img{width: 100%; }
+.cont1>div:nth-child(2) ul li:hover img{filter: brightness(85%); transition: all 0.5s;}
+
+
+.cont1>div:nth-child(2) ul li .center{position:absolute; font:bold 14px "Nanum Gothic Coding"; transform: translate(-50%,-50%); top:45%; left:50%;  text-align: center; width: 50%; height: 40px; line-height: 40px; background:rgba(255,255,255,0.3); opacity: 0;}
+.cont1>div:nth-child(2) ul li:hover .center{ opacity: 1; transition: 0.7s;}
+.cont1>div:nth-child(2) ul li .name{text-align: center; font:bold 14px "Nanum Gothic Coding"; margin-top: 3px;}
+.cont1>div:nth-child(2) ul li .price{text-align: center; font:13px; margin-top: 2px;}
+
+
+
+
+
+
+/*----------moving----------*/
+.moving {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #000;
+    width: 1600px;
+}
+
+.moving .spot_01 {
+    display: inline-block;
+    font: 2em;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    animation: scrollm 20s linear infinite;
+    color: #fff;
+}
+
+.moving .spot_01 span {
+    margin-left: 300px;
+}
+
+@keyframes scrollm {
+    0% {
+        text-indent: -20em;
+    }
+
+    100% {
+        text-indent: 20em;
+
+    }
+}

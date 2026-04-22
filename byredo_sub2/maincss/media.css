@@ -1,0 +1,165 @@
+
+/* 모바일 */
+ @media screen and (max-width:639px){
+.contents{width: 95%; margin:0 auto;}
+/*size*/
+.cont2{width:96%;padding:40px 2% 0;font-size:12px;}
+.cont3{width:96%;padding:40px 2% 0;font-size:12px;}
+.cont4{width:96%;padding:40px 2% 0;font-size:12px;}
+.cont5{width:96%;padding:40px 2% 0;font-size:12px;}
+.cont6{width:96%;padding:40px 2% 0;font-size:12px;}
+.cont7{width:96%;padding:40px 2% 0;font-size:12px;}
+.cont8{width:96%;padding:40px 2% 0;font-size:12px;}
+
+
+.cont2 .two li .price{font:normal 12px "Malgun Gothic";}
+
+.cont3>div:nth-child(2)>ul li .price{font:normal 12px "Malgun Gothic";}
+
+.cont4 .two li .price{/*font:normal 12px "Malgun Gothic";*/font-size:12px; }
+.cont5 .two li .price{/*font:normal 12px "Malgun Gothic";*/font-size:12px;}
+.cont6 .two li .price{/*font:normal 12px "Malgun Gothic";*/font-size:12px;}
+.cont7 .two li .price{/*font:normal 12px "Malgun Gothic";*/font-size:12px;}
+.cont8 .two li .price{/*font:normal 12px "Malgun Gothic";*/font-size:12px;}
+          
+
+/*cont1*/      
+.cont1 h2{font:normal 60px "Bebas Neue"; }    
+.cont1 h3{font-size: 20px;}
+     
+/*cont2*/      
+.cont2 .one li{width: 100%;} 
+.cont2 .one li p{font-size: 17px;} 
+     
+.cont2 .two li {width: 31%;}
+.cont2 .two li .center{ width: 80%; line-height: 40px; font-size:11px; }
+     
+/*cont3*/      
+.cont3>div{width: 100%;}
+.cont3>div:first-child h2{font-size: 17px;} 
+.cont3>div ul{padding: 2.5%; } 
+.cont3>div ul li{margin-top: 40px;}
+.cont3>div:nth-child(2)>ul li .center{width:60%;}     
+
+/*cont4*/   
+.cont4 .one li p{font-size: 17px;}    
+.cont4 .one li{width: 100%;} 
+.cont4 .two li{width: 48.3%;}  
+.cont4 .two li:nth-child(2n){margin-right: 0; margin-bottom: 20px;}
+     
+/*cont5*/      
+.cont5 .one{display: flex;flex-direction: column-reverse;}     
+.cont5 .one li{width: 100%;} 
+.cont5 .one li p{font-size: 17px;}       
+.cont5 .two li{width: 48.3%;} 
+.cont5 .two li:nth-child(2n){margin-right: 0;}
+.cont5 .two li:nth-child(5),.cont5 .two li:nth-child(6),.cont5 .two li:nth-child(7),.cont5 .two li:nth-child(8){display: none;}     
+
+/*cont6*/   
+.cont6>div{width: 100%;}      
+.cont6>div:nth-child(2) ul{ display: none;} 
+.cont6>div:nth-child(2) .text{font-size: 17px;}     
+ 
+.cont6 .two li{width: 31.1%;}     
+.cont6 .two li:nth-child(3n){margin-right: 0;}
+.cont6 .two li .center{ width: 70%; line-height: 40px; }
+     
+/*cont7*/      
+.cont7>div{width: 100%;}  
+.cont7>div h2{font-size: 17px;}   
+.cont7>div:nth-child(2) ul{display: none;}
+.cont7 .two li{width: 31.1%;}  
+.cont7 .two li .center{ width: 70%; line-height: 40px; }
+     
+     
+/*cont8*/      
+.cont8 .one li{width: 100%;}
+.cont8 .one li p{font-size: 17px;}   
+.cont8 .two li{width: 48.3%;}   
+.cont8 .two li:nth-child(2n){margin-right: 0;}     
+
+
+
+     
+}
+
+
+
+
+
+/*  태블릿 PC : width 1023px 미만 640px 이상 */
+ @media screen and (min-width:640px) and (max-width:1024px){
+.contents{width: 95%; }
+/*size*/
+.cont2{width:96%;padding:40px 2% 0;}
+.cont3{width:96%;padding:40px 2% 0;}
+.cont4{width:96%;padding:40px 2% 0;}
+.cont5{width:96%;padding:40px 2% 0;}
+.cont6{width:96%;padding:40px 2% 0;}
+.cont7{width:96%;padding:40px 2% 0;}
+.cont8{width:96%;padding:40px 2% 0;}
+
+
+
+/*cont1*/     
+.cont1 h2{font:normal 70px "Bebas Neue";}     
+.cont1 h3{font:normal 20px "Gothic A1";} 
+     
+/*cont2*/      
+.cont2 .one li p{margin-top: 10px; font:normal 15px "Malgun Gothic";}
+.cont2 .one li span{line-height: 0.5} 
+     
+/*cont3*/      
+.cont3>div:first-child h2{font:normal 15px "Malgun Gothic";}
+.cont3>div:nth-child(2)>ul li:nth-child(2){display: none;}
+.cont3>div:nth-child(2)>ul li:first-child {width:90%;}
+     
+/*cont4*/      
+.cont4 .one li p{margin-top: 20px; font:normal 15px "Malgun Gothic";}
+.cont4 .one li span{line-height: 0.5}     
+     
+/*cont5*/ 
+.cont5 .one li p{margin-top: 20px; font:normal 15px "Malgun Gothic"; }
+.cont5 .one li span{line-height: 0.5}
+     
+/*cont6*/     
+.cont6>div:nth-child(2) p{font:normal 50px "Gothic A1";}
+.cont6>div:nth-child(2) ul{ display: none;}  
+.cont6 .one .text ul:nth-child(2){margin-top:10px;} 
+     
+/*cont7*/      
+.cont7>div:first-child h2{font:normal 15px "Malgun Gothic"; } 
+.cont7>div:nth-child(2)>ul li:nth-child(2){display: none;}
+.cont7>div:nth-child(2)>ul li:first-child {width:90%;} 
+     
+/*cont8*/ 
+.cont8 .one li p{font:normal 15px "Malgun Gothic";}     
+        
+
+     
+}
+
+
+
+
+
+/* pc */
+
+@media all and (min-width:1024px){
+.foot_m{display: none;} 
+.contents{width: 90%; }
+.cont2{width:96%;padding:40px 2% 0;}
+.cont3{width:96%;padding:40px 2% 0;}
+.cont4{width:96%;padding:40px 2% 0;}
+.cont5{width:96%;padding:40px 2% 0;}
+.cont6{width:96%;padding:40px 2% 0;}
+.cont7{width:96%;padding:40px 2% 0;}
+.cont8{width:96%;padding:40px 2% 0;}
+
+.cont6 .one .text ul:nth-child(2){margin-top: 80px;}
+    
+    
+    
+}
+    
+    

@@ -1,0 +1,244 @@
+
+/* 모바일 */
+ @media screen and (max-width:639px){
+.visual_t-pc{display: none;} 
+
+/*cont1*/   
+.cont1{height: 400px;  margin: 100px auto 0;}
+.cont1 h2{font:normal 16em "Bebas Neue"; margin: 80px auto 50px;}     
+/*.cont1 h2 a{font:normal 14rem "Bebas Neue"; padding-top: 5%; margin: 100px auto 50px;}   */
+.cont1 .center a{ padding-bottom: 50px;}  
+.cont1 .center{position: absolute; width: 300px; padding-top:30px; right: -500px;}     
+     
+     
+/*cont2*/      
+.cont2{display: none;}      
+     
+/*cont2*/      
+.cont2_m{margin-top:0px;}   
+.slide_m ul li:first-child{}     
+.slide_m ul li img{width:175px;}        
+
+.slide_m .prev_btn1{position:absolute;top:130px;left:-10px;}
+.slide_m .next_btn1{position:absolute;top:130px;right:-10px;}          
+        
+
+/*cont3*/        
+.cont3{width: 100%; height: 550px; background:#fbfbfb; margin-top: 100px; }
+.cont3 h2{font:bold 40px "Bebas Neue"; }   
+.main1>section{position: relative; transform: translate(-50%,0%); top:0%; left:50%; }
+.flexslider {margin: -50px 0;  }   
+     
+#main {margin:20px auto 0; overflow:hidden; z-index: 3000;}
+.main1{width:100%; text-align:center;}
+
+.main1 a{color:gray;font:normal 12px "맑은 고딕"; text-decoration: none;}
+.main1 a:hover{color:gray; text-decoration: underline;}
+
+.main1>section{float:left; height: 500px; width: 65%;} 
+     
+
+/*cont4_m*/
+.cont4_m{width:100%; position: relative; margin-top: 100px; position: relative; }
+.cont4_m>div:first-child{display:none;}	 
+.cont4_m img{width: 100%;}	 
+	 
+/*cont4_menu*/
+.cont4_menu{margin:20px auto; }	 
+.cont4_menu ul{width: 170%; margin:30px 0; background:#d8ecd0; }
+.cont4_menu li{position: relative; float: left; width:16%; margin-right:4%; margin-bottom: 40px; border-radius:50%; text-align:center; }
+.cont4_menu li:first-child{margin-left:2%;}	 
+	 
+
+/*cont5*/
+.cont5{display: none;}	 
+	 
+/*cont5*/  
+.cont5_m>div:first-child li{width:100%;}	 
+.cont5_m>div:first-child li .text{position:relative; transform: translate(0%,0%); font:normal 16px "Malgun Gothic"; padding:5% 5% 5%;}
+.cont5_m>div:first-child li .text span{font:normal 34px "Bebas Neue"; line-height:2;}	 
+.cont5_m>div:first-child li h3{margin-bottom: 5%;}	 
+
+.cont5_m>div:last-child li{width:50%; height: 80%;}
+.cont5_m>div:last-child li:nth-child(2n){margin-right:0;}	 
+     
+/*cont6*/
+.cont6{display: none;}	
+ 
+/*cont6*/  
+.cont6_m{margin-top:150px;}
+.cont6_m>div:first-child li{width:100%;}	 
+.cont6_m>div:first-child li .text{position:relative; transform: translate(0%,0%); font:normal 16px "Malgun Gothic"; padding:5% 5% 5%;}
+.cont6_m>div:first-child li .text span{font:normal 34px "Bebas Neue"; line-height:2;}	 
+.cont6_m>div:first-child li h3{margin-bottom: 5%;}	 
+
+.cont6_m>div:last-child li{width:50%;}
+.cont6_m>div:last-child li:nth-child(2n){margin-right:0;}	  
+    
+/*cont7*/
+.cont7{display: none;}	 	
+	 
+/*cont7*/     
+.cont7_m{margin-top:150px;}
+.cont7_m>div:first-child li{width:100%;}	 
+.cont7_m>div:first-child li .text{position:relative; transform: translate(0%,0%); font:normal 16px "Malgun Gothic"; padding:5% 5% 5%;}
+.cont7_m>div:first-child li .text span{font:normal 34px "Bebas Neue"; line-height:2;}	 
+.cont7_m>div:first-child li h3{margin-bottom: 5%;}	 
+
+.cont7_m>div:last-child li{width:50%;}
+.cont7_m>div:last-child li:nth-child(2n){margin-right:0;}	  
+          
+
+/*cont8*/      
+.cont8{ margin:50px auto;} 
+.cont8 .product{width:40%;  } 
+.cont8 .video{ width: 95%;max-height: 350px; margin: 0 auto;}
+
+.cont8 .video iframe{max-height: 350px;}     
+.cont8 .text1, .cont8 .text2{display: none;}  
+.cont8 .name{width: 75%;margin:-20px auto 20px;}     
+.cont8 .btn {width: 37%;  font:bold 20px "Gothic A1"; height: 48px;} 
+.cont8 .btn a{line-height: 48px; height: 48px;}     	 
+
+	 
+/*cont9*/
+.cont9{display: none; }     
+.cont9_m{margin:100px auto 0;}     
+.cont9_m .text1{font:normal 18px "Share Tech Mono";  }
+.cont9_m .text1 span{ font-size: 22px;}
+	 
+	 
+/*cont10*/  
+.cont10{margin:2px auto 0;}      
+.cont10 li{width:33%; margin-right: 0.5%; margin-bottom: 0.5%;}
+.cont10 li:nth-child(3n){margin-right: 0;}  
+.cont10 li:nth-child(7),li:nth-child(8),li:nth-child(9),li:nth-child(10){display: none;}      
+ 
+	 
+	 
+     
+}
+
+
+
+/*  태블릿 PC : width 1023px 미만 640px 이상 */
+ @media screen and (min-width:640px) and (max-width:1024px){
+.visual_m{display: none;} 
+
+/*cont2*/
+.cont2_m{display: none;}      
+	 
+/*cont3*/        
+.cont3{padding-left:5%; margin:150px auto 0;}      
+.cont3 h2{padding-right: 5%;}	        
+	 
+/*cont4_m*/	
+.cont4_m>div:last-child{display: none;}	
+	 
+/*cont4_menu*/
+.cont4_menu{width: 98%; margin:0px auto;}
+.cont4_menu li{width:16%; margin-right:5%; }	 
+	
+/*cont5*/
+.cont5{width:100%; margin: 70px auto 0;} 
+.cont5>div:first-child li .text{position:relative; transform: translate(0%,0%); font:normal 16px "Malgun Gothic"; padding:5% 5% 10%;}
+.cont5>div:first-child li .text span{font:normal 34px "Bebas Neue"; line-height:2;}	 
+
+/*cont5_m*/
+.cont5_m{display: none;}		 
+	 	 
+/*cont6*/
+.cont6{width:100%;}  
+.cont6>div:first-child ul{position:relative; width:100%; display: flex; flex-direction: row-reverse;  }	 
+.cont6>div:first-child li{position:relative; width: 50%;} 
+.cont6>div:first-child li .text{position:relative; transform: translate(0%,0%); font:normal 16px "Malgun Gothic"; padding:5% 5% 16%;}
+.cont6>div:first-child li .text span{font:normal 34px "Bebas Neue"; line-height:2;}	 	 
+   
+/*cont6_m*/
+.cont6_m{display: none;}	
+ 
+/*cont7*/     
+.cont7{width:100%;}   
+.cont7>div:first-child li .text{position:relative; transform: translate(0%,0%); font:normal 16px "Malgun Gothic"; padding:5% 5% 16%;}
+.cont7>div:first-child li .text span{font:normal 34px "Bebas Neue"; line-height:2;}	 	 
+ 
+/*cont7_m*/
+.cont7_m{display: none;}		
+	 
+/*cont8*/
+.cont8{ margin:50px auto;}     
+.cont8 .product{width:35%;}     
+.cont8 .video{ width: 95%; margin: 0 auto;}    
+.cont8 .text1, .cont7 .text2{display: none;}   
+.cont8 .video{max-height: 450px;}     
+.cont8 .video iframe{max-height: 450px;}      
+.cont8 .btn{width: 30%; font-size: 28px;}    
+ 	   
+/*cont9*/
+.cont9{display: none;} 
+.cont9_m{margin:150px auto 0;}     
+.cont9_m .text1{font:normal 26px "Share Tech Mono";  }
+.cont9_m .text1 span{ font-size: 30px;}
+     
+     	 
+/*cont10_ins*/  
+.cont10{margin:10px auto 0;}     
+.cont10 li{float:left; position: relative; width: 19%; margin-right:1.25%; text-align: center;  }
+.cont10 li:nth-child(5n){margin-right:0; margin-bottom:1.25%;}        
+   
+}
+
+
+/* pc */
+
+@media all and (min-width:1024px){
+.visual_m{display: none;} 
+
+/*cont2*/
+.cont2_m{display: none;}  
+
+/*cont3*/       
+.cont3{padding-left:5%; margin:150px auto 0;}        
+.cont3 h2{padding-right: 5%;}
+	       
+/*cont4_m*/	
+.cont4_m>div:last-child{display: none;}	
+	
+/*cont4_menu*/
+.cont4_menu{width:90%;  margin:100px auto; }   
+.cont4_menu li{position:relative; float: left; width:15%; margin-right:6.25%; margin-bottom: 40px; border-radius:50%; text-align:center; }	
+/*cont5*/       
+.cont5{width: 95%; margin-top: 200px; } 
+ 
+/*cont5_m*/
+.cont5_m{display: none;}	 
+    
+/*cont6*/ 
+.cont6{width: 95%; margin-top: 200px; }  
+.cont6>div:first-child ul{position:relative; width:100%; display: flex; flex-direction: row-reverse;  }
+.cont6>div:first-child li{width: 50%;}
+	
+/*cont6_m*/
+.cont6_m{display: none;}	
+	
+/*cont7*/ 
+.cont7{width: 95%; margin-top: 200px; }   
+	
+/*cont7_m*/
+.cont7_m{display: none;}	
+	
+/*cont9*/
+.cont9_m{display: none;} 
+
+/*cont10*/  
+.cont10{width: 100%; margin:15px auto 0; margin-top: 20px; }  
+.cont10 li{float:left; position: relative; width: 19%; margin-right:1.25%; text-align: center;  }
+.cont10 li:nth-child(5n){margin-right: 0;margin-bottom:1.25%;}      
+    
+/*footer*/    
+.foot_m{display: none;}    
+    
+    
+}
+    
+    
