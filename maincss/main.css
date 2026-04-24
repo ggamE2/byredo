@@ -73,6 +73,7 @@
     -webkit-text-stroke: 1px #000;
     color: transparent;
     white-space: nowrap;
+    overflow: hidden;
     text-align:left;
     height: 500px;
     line-height: 500px;
@@ -633,6 +634,7 @@
     font: bold 15px "Gothic A1";
     /*margin:15% 3%;*/
     margin: 0 auto;
+    padding-bottom:5%;
 }
 
 .cont5_m>div:first-child li h3 a {
@@ -925,6 +927,7 @@
     font: bold 16px "Gothic A1";
     /*margin:15% 3%;*/
     margin: 0 auto;
+    padding-bottom:5%;
 }
 
 .cont6_m>div:first-child li h3 a {
@@ -1224,6 +1227,7 @@
     font: bold 15px "Gothic A1";
     /*margin:15% 3%;*/
     margin: 0 auto;
+    padding-bottom:5%;
 }
 
 .cont7_m>div:first-child li h3 a {
